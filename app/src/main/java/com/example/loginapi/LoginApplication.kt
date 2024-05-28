@@ -1,7 +1,7 @@
-package com.cursosant.storesapirest
+package com.example.loginapi
 
 import android.app.Application
-import com.cursosant.storesapirest.common.database.ReqResAPI
+
 class LoginApplication : Application() {
     companion object{
         lateinit var reqResAPI: ReqResAPI
