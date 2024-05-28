@@ -6,4 +6,6 @@
     <string name="main_type_regiter">Register</string>
     <string name="main_type_login">Login</string>
     <string name="main_error_server">Error en la peticion</string>
+    <string name="description_img_profile">Imagen de perfil usuario</string>
+    <string name="main_profile">Perfil</string>
 </resources>

@@ -6,6 +6,8 @@ object Constants {
     const val API_PATH = "/api"
     const val REGISTER_PATH = "/register"
     const val LOGIN_PATH = "/login"
+    const val USERS_PATH = "/users"
+    const val TWO_PATH = "/1"
 
     //parametros
     const val EMAIL_PARAM = "email"
@@ -14,6 +16,8 @@ object Constants {
     //respuesta
     const val ID_PROPERTY = "id"
     const val TOKEN_PROPERTY = "token"
+    const val DATA_PROPERTY = "data"
+    const val SUPPORT_PROPERTY = "support"
 
     //Control de errores
     const val ERROR_VALUES = "fail"

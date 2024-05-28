@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -37,6 +38,7 @@ android {
         enable = true
     }
 }
+val glideVersion = "4.16.0"
 
 dependencies {
 
@@ -48,6 +50,13 @@ dependencies {
 
     //Volley
     implementation ("com.android.volley:volley:1.2.1")
+
+    //Glide
+    implementation ("com.github.bumptech.glide:glide:$glideVersion")
+    ksp ("com.github.bumptech.glide:ksp:$glideVersion")
+
+    //Gson
+    implementation("com.google.code.gson:gson:2.10.1")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

@@ -1,5 +1,6 @@
 package com.example.loginapi
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -27,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         //listenner al boton
         mBinding.btnLogin.setOnClickListener {
             login()
+        }
+
+        mBinding.btnProfile.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
         }
     }
 
